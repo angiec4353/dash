@@ -453,3 +453,49 @@ a:focus {
     margin: 0;
   }
 }
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card .header {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  /* background-color: #f8f9fa; */
+  border-radius: 10px 10px 0 0;
+}
+
+.card .title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card .category {
+  margin-top: 5px;
+  /* color: #6c757d; */
+  font-size: 16px;
+}
+
+.card .content {
+  padding: 20px;
+}
+
+.gradient-1 {
+  background-image: linear-gradient(230deg, #fc5286, #fbaaa2);
+}
+
+.gradient-2 {
+  background-image: linear-gradient(230deg, #759bff, #843cf6);
+}
+
+.gradient-3 {
+  background-image: linear-gradient(230deg, #f8b250, #fda75e);
+}
